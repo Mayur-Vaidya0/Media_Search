@@ -1,16 +1,150 @@
-# React + Vite
+# 🔍 Media Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application that allows users to search high-quality photos and videos using the Pexels API.
 
-Currently, two official plugins are available:
+Users can browse media, switch between Photos and Videos, and save their favorite items into a personal collection.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Built using **React**, **Redux Toolkit**, **Vite**, and **Pexels API**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- Redux Toolkit
+- React Router DOM
+- Axios
+- React Toastify
+- Vite
+- CSS
+- Pexels API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# ✨ Features
+
+## 🔎 Search Media
+
+- Search high-quality photos
+- Search videos
+- Instant search results
+
+---
+
+## 📷 Photos & Videos
+
+- Switch between Photos and Videos
+- Responsive media grid
+- Optimized card layout
+
+---
+
+## ❤️ Collection
+
+- Save favourite media
+- Remove saved media
+- Persistent storage using LocalStorage
+
+---
+
+## 🎨 User Interface
+
+- Dark modern UI
+- Responsive layout
+- Smooth navigation
+- Toast notifications
+
+---
+
+# 📸 Screenshots
+
+## Home Page
+
+(Add Screenshot 1)
+
+## Videos Page
+
+(Add Screenshot 2)
+
+## Collection Page
+
+(Add Screenshot 3)
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/your-username/Media_Search.git
+```
+
+```bash
+cd Media_Search
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env` file
+
+```env
+VITE_PEXELS_API_KEY=your_api_key
+```
+
+Start the project
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+# 📁 Folder Structure
+
+```text
+src
+│
+├── api
+├── components
+├── pages
+├── redux
+│   ├── store.js
+│   └── features
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+# 📌 Future Improvements
+
+- Infinite scrolling
+- Download media
+- User authentication
+- Cloud storage
+- Favorites synchronization
+- Search history
+
+---
+
+# 👨‍💻 Author
+
+**Mayur Vaidya**
+
+Computer Engineering Student
+
+Full Stack Web Developer
+
+GitHub:
+https://github.com/your-username
