@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+#bottom{
+  background : linear-gradient(transparent,black)
+}
+
+*{
+  font-family: 'Google Sans', sans-serif; 
+}
+
+:root{
+  --c1:#4274D9;
+  --c2:#293681;
+  --c3:#0e6ba8;
+  --c4:#a6e1fa;
+}
