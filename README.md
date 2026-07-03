@@ -17,7 +17,9 @@ Built using **React**, **Redux Toolkit**, **Vite**, and **Pexels API**.
 - React Toastify
 - Vite
 - CSS
+- Tailwind CSS
 - Pexels API
+- Unspash API
 
 ---
 
@@ -60,15 +62,15 @@ Built using **React**, **Redux Toolkit**, **Vite**, and **Pexels API**.
 
 ## Home Page
 
-(Add Screenshot 1)
+![alt text](<Screenshot 2026-07-03 223944.png>) 
 
 ## Videos Page
 
-(Add Screenshot 2)
+![alt text](<Screenshot 2026-07-03 224104.png>)
 
 ## Collection Page
 
-(Add Screenshot 3)
+![alt text](<Screenshot 2026-07-03 224218.png>)
 
 ---
 
@@ -77,7 +79,7 @@ Built using **React**, **Redux Toolkit**, **Vite**, and **Pexels API**.
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/Media_Search.git
+git clone https://github.com/Mayur-Vaidya0/Media_Search
 ```
 
 ```bash
@@ -93,7 +95,8 @@ npm install
 Create a `.env` file
 
 ```env
-VITE_PEXELS_API_KEY=your_api_key
+VITE_PEXELS_KEY=your_api_key
+VITE_UNSPLASH_KEY=your_api_key
 ```
 
 Start the project
@@ -141,10 +144,3 @@ src
 # 👨‍💻 Author
 
 **Mayur Vaidya**
-
-Computer Engineering Student
-
-Full Stack Web Developer
-
-GitHub:
-https://github.com/your-username
