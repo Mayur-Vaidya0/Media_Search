@@ -50,7 +50,7 @@ if(error) return <h1>Error</h1>
 if(loading) return <h1>Loading...</h1>
 
   return (
-    <div className='flex justify-between w-full flex-wrap gap-6 overflow-auto px-10'>
+    <div className='flex justify-between w-full flex-wrap gap-3 overflow-auto px-4'>
             {results.map((item, idx) => {
                 return <div key={idx}>
                     <ResultCard item={item} />
